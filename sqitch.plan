@@ -1,0 +1,7 @@
+%syntax-version=1.0.0
+%project=cims-db
+
+basic-information 2020-02-24T06:25:15Z minsu <sumin2012@163.com> # clinic information
+sample 2020-02-24T08:10:18Z postgres <sumin2012@163.com> # sample information
+project 2020-02-24T08:34:59Z postgres <sumin2012@163.com> # testing project
+genetic-result 2020-02-24T08:45:18Z postgres <sumin2012@163.com> # genetic testing results
