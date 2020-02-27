@@ -1,9 +1,10 @@
--- Deploy cims-db:genetic-result to pg
+-- Deploy cims-db:result to pg
 
 BEGIN;
 
 CREATE TABLE IF NOT EXISTS genetic_result (
   variant_id BIGINT PRIMARY KEY NOT NULL,
+  item_id INTEGER REFERENCES item(item_id),
   transcript TEXT  NOT NULL,
   amino_acid_change TEXT,
   nucleotide_change TEXT,

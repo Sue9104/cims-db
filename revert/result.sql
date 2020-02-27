@@ -1,4 +1,4 @@
--- Revert cims-db:genetic-result from pg
+-- Revert cims-db:result from pg
 
 BEGIN;
 

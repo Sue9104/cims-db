@@ -1,7 +1,11 @@
 %syntax-version=1.0.0
 %project=cims-db
 
-basic-information 2020-02-24T06:25:15Z minsu <sumin2012@163.com> # clinic information
+item 2020-02-24T08:34:59Z postgres <sumin2012@163.com> # testing project
+disease 2020-02-27T00:24:01Z postgres <sumin2012@163.com> # disease information
+gene 2020-02-27T00:44:35Z postgres <sumin2012@163.com> # gene information
+variant 2020-02-27T01:54:09Z postgres <sumin2012@163.com> # variant information
+subject 2020-02-24T06:25:15Z minsu <sumin2012@163.com> # clinic information
 sample 2020-02-24T08:10:18Z postgres <sumin2012@163.com> # sample information
-project 2020-02-24T08:34:59Z postgres <sumin2012@163.com> # testing project
-genetic-result 2020-02-24T08:45:18Z postgres <sumin2012@163.com> # genetic testing results
+result 2020-02-24T08:45:18Z postgres <sumin2012@163.com> # genetic testing results
+@v0.1.0 2020-02-27T06:55:51Z postgres <sumin2012@163.com> # init
