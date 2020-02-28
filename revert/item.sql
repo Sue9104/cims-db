@@ -3,5 +3,6 @@
 BEGIN;
 
 DROP TABLE item;
+DROP TYPE method_option;
 
 COMMIT;

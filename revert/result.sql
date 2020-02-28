@@ -2,6 +2,6 @@
 
 BEGIN;
 
-DROP TABLE genetic_result;
+DROP TABLE result;
 
 COMMIT;

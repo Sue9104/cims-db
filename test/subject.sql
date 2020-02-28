@@ -5,10 +5,11 @@ RESET client_min_messages;
 BEGIN;
 
 SELECT no_plan();
--- SELECT plan(1);
 
 SET search_path TO public;
-SELECT has_table('flipr');
+SELECT has_table('subject');
+SELECT col_is_pk('subject', 'subject_id');
+SELECT col_type_is('subject', 'sex', 'sex_option');
 
 SELECT finish();
 
